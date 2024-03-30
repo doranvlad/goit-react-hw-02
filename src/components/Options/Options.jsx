@@ -2,7 +2,7 @@ import s from "./Options.module.css";
 
 function Options({ updateFeedback, totalFeedback, resetFeedback }) {
   return (
-    <div>
+    <div className={s.wrapper}>
       <button
         onClick={() => {
           updateFeedback("good");
